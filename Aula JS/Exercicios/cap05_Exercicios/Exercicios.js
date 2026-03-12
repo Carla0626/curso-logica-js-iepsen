@@ -11,7 +11,11 @@ frm.addEventListener("submit", (e) => {
 
     let resposta = ""
     for (let i = 1; i <= num; i++){
-        resposta = resposta + `${fruta}` + "*"
+        if ( i != num) {
+            resposta = resposta + `${fruta}` + "*"
+        } else {
+            resposta = resposta + `${fruta}` 
+        }
     }
     resp.innerText = resposta
 })
