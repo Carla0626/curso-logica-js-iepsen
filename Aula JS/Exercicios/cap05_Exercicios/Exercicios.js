@@ -42,3 +42,31 @@ de chinchilas da fazenda. O número inicial de chinchilas deve ser maior ou igua
 //     }
 //     resp.innerText = resposta
 // }) 
+// C) Elaborar um programa que leia um número, verifique se ele é ou não perfeito.
+// O número dito perfeito é aquele que é igual à soma dos seus divisores inteiros, exceto o próprio número.
+// O programa deve exibir os divisores do número e a soma dele.
+
+// const resp1 = document.querySelector("#outResp1")
+// const resp2 = document.querySelector("#outResp2")
+
+// frm.addEventListener("submit", (e) => {
+//     e.preventDefault()
+//     const num = Number(frm.inNumero.value)
+
+//     let contador = 0
+//     let soma = 0
+//     let resposta = ""
+//     for (let i = 1; i < num; i++){
+//         if ((num % i == 0)){
+//             soma += i
+//             resposta = resposta + `${i} ` 
+//         }
+//         if (soma == num){
+//             resp2.innerText = `${num} é um Número Perfeito`
+//         } else {
+//             resp2.innerText = `${num} não é um Número Perfeito`
+//         }
+//     }
+
+//     resp1.innerText = `Divisores de ${num}: ${resposta} (Soma: ${soma})`
+// })
