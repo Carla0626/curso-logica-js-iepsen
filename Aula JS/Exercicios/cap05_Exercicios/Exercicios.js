@@ -56,7 +56,7 @@ de chinchilas da fazenda. O número inicial de chinchilas deve ser maior ou igua
 //     for (let i = 1; i < num; i++){
 //         if (num % i == 0){
 //             soma += i
-//             if (soma == num) {
+//             if (soma >= num) {
 //                 ultimo = i
 //             } else {
 //                 resposta = resposta + `${i}, `
