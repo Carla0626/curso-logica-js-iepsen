@@ -46,20 +46,22 @@ de chinchilas da fazenda. O número inicial de chinchilas deve ser maior ou igua
 // O número dito perfeito é aquele que é igual à soma dos seus divisores inteiros, exceto o próprio número.
 // O programa deve exibir os divisores do número e a soma dele.
 
-// const resp1 = document.querySelector("#outResp1")
-// const resp2 = document.querySelector("#outResp2")
-
 // frm.addEventListener("submit", (e) => {
 //     e.preventDefault()
 //     const num = Number(frm.inNumero.value)
 
-//     let contador = 0
+//     let ultimo 
 //     let soma = 0
 //     let resposta = ""
 //     for (let i = 1; i < num; i++){
-//         if ((num % i == 0)){
+//         if (num % i == 0){
 //             soma += i
-//             resposta = resposta + `${i} ` 
+//             if (soma == num) {
+//                 ultimo = i
+//             } else {
+//                 resposta = resposta + `${i}, `
+//             }
+//         //     resposta = resposta + `${i} ` 
 //         }
 //         if (soma == num){
 //             resp2.innerText = `${num} é um Número Perfeito`
@@ -68,5 +70,5 @@ de chinchilas da fazenda. O número inicial de chinchilas deve ser maior ou igua
 //         }
 //     }
 
-//     resp1.innerText = `Divisores de ${num}: ${resposta} (Soma: ${soma})`
+//     resp1.innerText = `Divisores de ${num}: ${resposta} ${ultimo} (Soma: ${soma})`
 // })
