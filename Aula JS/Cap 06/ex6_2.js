@@ -31,7 +31,7 @@ frm.addEventListener("submit", (e) => {   // "escuta" evento submit do form
         alert("Suas chances acabaram...")
         frm.btSubmit.disabled = true
         frm.btNovo.className = "exibe"
-        respDica = `Game Over!! Número Sorteado: ${sorteado}`
+        respDica.innerText = `Game Over!! Número Sorteado: ${sorteado}`
       } else {
         //usa o operador ternário para mensagem da dica
         const dica = numero < sorteado ? "maior" : "menor"
