@@ -26,7 +26,7 @@ frm.btListar.addEventListener("click", () => {
     resp.innerText = lista
 })
 
-fr.btResumir.addEventListener("click", () => {
+frm.btResumir.addEventListener("click", () => {
     if (criancas.length == 0) {
         alert("Não há crianças na lista")
         return
