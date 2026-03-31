@@ -57,3 +57,48 @@ frm.btMontar.addEventListener("click", () => {
 
     resp.innerText = resposta
 }) 
+// b) Elaborar um programa que adicione números a um vetor. O programa deve impedir a inclusão de números 
+// repetidos. Exibir a lista de números a cada inclusão. Ao clicar no botão Verificar Ordem, o programa deve 
+// analisar o conteúdo do vetor e informar se os números estão ou não em ordem crescente.
+
+// const resp1 = document.querySelector("h3")
+// const numeros = []
+// let lista = ""
+// frm.addEventListener("submit", (e) => {
+//     e.preventDefault()
+
+//     const num = Number(frm.inNumero.value)
+
+//     if (numeros.includes(num)) {
+//         alert("Você já inseriu este numero, tente outro.")
+//         return
+//     } else {
+//     numeros.push(num)
+//     }
+
+
+//     resp1.innerText = `Números: ${numeros.join(", ")}`
+//     frm.inNumero.value = ""
+//     frm.inNumero.focus()
+// })
+
+// frm.btOrdem.addEventListener("click", () => {
+//     if (numeros.length == 0) {
+//         alert("Não há números na lista")
+//         return
+//     }
+//     let copia = [...numeros]
+//     copia.sort((a, b) => a - b)
+//     let crescente = 0
+//     const vetor = numeros.length
+//     for (let i = 0; i < vetor; i++)
+//         if (numeros[i] == copia[i])
+//             crescente += 1
+
+//     if (crescente == (vetor)){
+//         resp.innerText = "Números em ordem crescente"
+//     } else {
+//         resp.innerText = "Atenção... Números não estão em ordem crescente"
+//     }
+// }
+// )
