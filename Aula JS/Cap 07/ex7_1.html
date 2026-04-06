@@ -1,0 +1,12 @@
+<script>
+    const anuncio = prompt("Anúncio: ")
+    let numPalavras = 0
+    const tam = anuncio.length
+    for (let i = 0; i < tam; i++) {
+        if (anuncio.charAt(i) == " ") {
+            numPalavras++
+        }
+    }
+    //exibe anuncio e numero de palavras (que e o numero de espaços)
+    alert(`Anúncio: ${anuncio}\nN° de Palavras: ${(numPalavras + 1)}`)
+</script>
